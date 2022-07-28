@@ -1,0 +1,129 @@
+*{
+  padding: 0;
+  margin: 0;
+  font-family: 'Lato', 'san-serif';
+}
+
+.body{
+  background: #f1f1f1;
+}
+.conteudo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background: rgb(174, 172, 172);
+  padding: 16px;
+}
+.conteudo header{
+  position: relative;
+}
+.calendario{
+  text-align: center;
+}
+.conteudo .calendario header{
+  position: relative;
+}
+
+h2{
+  margin-top:20px;
+  font-size:32px;
+  text-transform: uppercase;
+}
+
+.topo{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+  margin: auto;
+}
+
+.botao-ant{
+  left: 80px;
+  border: 2px solid  #f9f9f9;
+  border-radius: 50%;
+  color: #04181b;
+  background-color: rgb(225, 197, 220);
+  font-size: 16px;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  margin-top: -16px;
+}
+
+.botao-pro{
+  right: 80px;
+  border: 2px solid  #f9f9f9;
+  border-radius: 50%;
+  color: #04181b;
+  background-color: rgb(225, 197, 220);
+  font-size: 16px;
+  height: 32px;
+  width: 32px;
+  line-height: 32px;
+  margin-top: -16px;
+}
+
+.botao-ant:hover, .botao-pro:hover{
+  background: #cbd1d2;
+  color: #f9f9f9;
+}
+
+.add{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #041217;
+  border: 2px solid #f9f9f9;
+  border-radius: 50%;
+  font-size: 16px;
+  width: 32px;
+  height: 32px;
+  background-color: rgb(239, 195, 237);
+} 
+
+.add:hover{
+  background: #eceff0;
+  color: #f9f9f9;
+}
+
+
+.calendario table{
+  margin: auto;
+  border-collapse: collapse;
+}
+.calendario thead{
+  background: white;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+.calendario td{
+  border:1px solid #cbd1d2;
+  height: 71.4px;
+  text-align: center;
+  width: 71.4px;
+}
+.calendario tbody{
+  cursor: pointer;
+  background-color: white;
+}
+.calendario tbody tr td:hover{
+  background: rgba(145, 223, 244, 0.8);
+  color: white;
+}
+.bottom {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 16px;
+}
+
+.eventos-dia{
+  border: 2px solid #f9f9f9;
+  border-radius: 8px;
+  width: 98%;
+  display: flex;
+  justify-content: center;
+  padding: 16px 0;
+  font-size: 20px;
+}
