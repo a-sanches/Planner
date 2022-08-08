@@ -1,0 +1,33 @@
+let days = [
+  {day: 1, weekDay: 'segunda'}, 
+  {day: 2, weekDay: 'terca'}
+  {day: 3, weekDay: 'quarta'}
+  {day: 4, weekDay: 'quinta'}
+  {day: 5, weekDay: 'sexta'}
+  {day: 6, weekDay: 'segunda'}
+  {day: 7, weekDay: 'terca'}
+  {day: 8, weekDay: 'quarta'}
+  {day: 9, weekDay: 'quinta'}
+  {day: 10, weekDay: 'sexta'}
+  {day: 11, weekDay: 'segunda'}
+  {day: 12, weekDay: 'terca'}
+  {day: 13, weekDay: 'quarta'}
+  {day: 14, weekDay: 'quinta'}
+  {day: 15, weekDay: 'sexta'}
+  {day: 16, weekDay: 'segunda'}
+  {day: 17, weekDay: 'terca'}
+  {day: 18, weekDay: 'quarta'}
+  {day: 19, weekDay: 'quinta'}
+  {day: 20, weekDay: 'sexta'}
+  {day: 21, weekDay: 'segunda'}
+  {day: 22, weekDay: 'terca'}
+  {day: 23, weekDay: 'quarta'}
+  {day: 24, weekDay: 'quinta'}
+  {day: 25, weekDay: 'sexta'}
+  {day: 26, weekDay: 'segunda'}
+  {day: 27, weekDay: 'terca'}
+  {day: 28, weekDay: 'quarta'}
+  {day: 29, weekDay: 'quinta'}
+  {day: 30, weekDay: 'sexta'}
+  {day: 31, weekDay: 'segunda'}
+];
